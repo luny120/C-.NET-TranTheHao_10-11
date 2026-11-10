@@ -1,4 +1,4 @@
-echo "# C-.NET-TranTheHao_10-11" >> README.md
+echo "# C-.NET-Trần Thế Hào - 24810320120 - D19QTANM1" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
