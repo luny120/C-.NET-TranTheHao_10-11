@@ -1,0 +1,1 @@
+using Microsoft.Data.SqlClient; namespace Karaoke.DAL; public static class Db { public static string ConnectionString {get;set;} = @"Server=(localdb)\MSSQLLocalDB;Database=KaraokeDB;Integrated Security=True;TrustServerCertificate=True;"; public static SqlConnection Open(){var c=new SqlConnection(ConnectionString);c.Open();return c;} }

@@ -1,0 +1,1 @@
+namespace Karaoke.DTO; public class ServiceItem { public int MaDV{get;set;} public int SoLuong{get;set;} }

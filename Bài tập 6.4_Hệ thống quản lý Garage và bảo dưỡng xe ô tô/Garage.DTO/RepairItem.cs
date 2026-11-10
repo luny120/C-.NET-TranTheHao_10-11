@@ -1,0 +1,1 @@
+namespace Garage.DTO; public class RepairItem { public int MaPhuTung{get;set;} public int SoLuong{get;set;} public decimal TienCong{get;set;} }
